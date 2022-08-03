@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap');
+
+body {
+    background-color: #f5f5f1;
+}
+
+.paragraph {
+    line-height: 35px;
+    color: #676159;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.col {
+    background-color: #fff;
+    list-style: none;
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(233, 233, 233);
+}
+
+.nome {
+    font-family: 'Kaisei Opti', serif;
+}
+
+.role {
+    color: #79736d;
+}
+
+.image {
+    width: 300px;
+}
